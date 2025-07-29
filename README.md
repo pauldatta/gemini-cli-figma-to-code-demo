@@ -2,17 +2,28 @@
 
 This project demonstrates the use of the Gemini CLI to convert a Figma design into a functional HTML, CSS, and JavaScript prototype.
 
-## Figma Prototype
+## The Mockup
 
-The `figma_prototype` directory contains the generated web prototype. It was created based on the Figma design file and includes the following:
+![Cash App Mockup](mockup/cash_app.png)
 
--   `index.html`: The main HTML structure of the application.
--   `style.css`: The stylesheet that provides the visual appearance.
--   `script.js`: The JavaScript file for any interactive elements.
--   `assets/`: A directory containing all the image assets downloaded from Figma.
+## The Result (The Prototype)
 
-To view the prototype, open the `figma_prototype/index.html` file in a web browser.
+The `figma_prototype` directory contains the generated web prototype. To view it, open `figma_prototype/index.html` in your browser.
 
-## Mockup
+## How it Works (A High-Level Overview)
 
-The `mockup` directory contains the original design mockup for the project. The `cash_app_mockup.md` is a placeholder for the mockup file.
+This prototype was generated using the Gemini CLI by following these general steps:
+
+1.  **Configure MCP Servers:** The `.gemini/settings.json` file is configured to use specific Model Context Protocol (MCP) servers. These servers act as bridges between the Gemini CLI and external services.
+    *   **`context7`**: Provides the model with up-to-date documentation and code examples for various libraries and frameworks.
+    *   **`Framelink Figma MCP`**: A local server that connects the Gemini CLI to the Figma API, allowing it to analyze design files and extract layout, styling, and asset information.
+
+2.  **Analyze Design:** The process starts by analyzing the Figma design file to understand its structure, components, and styles.
+
+3.  **Generate Code:** Based on the analysis, the initial HTML, CSS, and JavaScript files are generated.
+
+4.  **Download Assets:** All necessary image assets are downloaded directly from the Figma file and placed in the `assets` directory.
+
+5.  **Refine & Verify:** The generated code is then refined to ensure it accurately matches the mockup.
+
+For a more detailed breakdown, please refer to the upcoming blog post.
