@@ -26,4 +26,25 @@ This prototype was generated using the Gemini CLI by following these general ste
 
 5.  **Refine & Verify:** The generated code is then refined to ensure it accurately matches the mockup.
 
+## Running the React Prototype
+
+To run the interactive React prototype:
+
+1.  Navigate to the `figma_prototype_react` directory:
+    ```bash
+    cd figma_prototype_react
+    ```
+
+2.  Install the dependencies:
+    ```bash
+    npm install
+    ```
+
+3.  Start the development server:
+    ```bash
+    npm start
+    ```
+
+This will open the application in your default web browser.
+
 For a more detailed breakdown, please refer to the upcoming blog post.
