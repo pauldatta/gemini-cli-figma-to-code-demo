@@ -4,7 +4,7 @@ This project demonstrates the use of the Gemini CLI to convert a Figma design in
 
 ## The Mockup
 
-![Cash App Mockup](mockup/cash_app.png)
+<img src="mockup/cash_app.png" alt="Cash App Mockup" width="300"/>
 
 ## The Result (The Prototype)
 
