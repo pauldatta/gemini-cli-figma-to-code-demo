@@ -1,3 +1,4 @@
+
 # Dependencies
 /node_modules
 
@@ -39,3 +40,9 @@ cashtellations-prototype/
 .gemini/extensions/
 .gemini/agents/
 figma-to-code-with-gemini-cli.md
+mockup/*.png
+
+# React App
+figma_prototype_react/node_modules
+figma_prototype_react/build
+figma_prototype_react/.DS_Store
