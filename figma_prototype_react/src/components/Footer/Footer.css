@@ -1,0 +1,34 @@
+.footer {
+    background-color: #1F261C;
+    border-top: 1px solid #2E3829;
+    padding: 8px 16px 12px;
+}
+
+.bottom-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    text-decoration: none;
+    color: #A6B5A1;
+}
+
+.nav-item.active {
+    color: #FFFFFF;
+}
+
+.nav-item img {
+    width: 32px;
+    height: 32px;
+}
+
+.nav-item span {
+    font-size: 12px;
+    font-weight: 500;
+}

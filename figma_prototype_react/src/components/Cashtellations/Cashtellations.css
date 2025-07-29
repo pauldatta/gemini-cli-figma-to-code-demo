@@ -1,0 +1,28 @@
+.cashtellations {
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.cashtellations h2 {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0 0 4px 0;
+}
+
+.cashtellations p {
+    font-size: 16px;
+    color: #A6B5A1;
+    margin: 0 0 12px 0;
+}
+
+.generate-btn {
+    background-color: #54D12B;
+    color: #121712;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    float: right;
+}

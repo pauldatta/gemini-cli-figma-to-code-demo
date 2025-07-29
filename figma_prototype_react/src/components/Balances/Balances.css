@@ -1,0 +1,38 @@
+.balances {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: #FFFFFF;
+}
+
+.balance-card {
+    display: flex;
+    align-items: center;
+    background-color: #121712;
+    padding: 8px 0;
+}
+
+.balance-icon {
+    width: 48px;
+    height: 48px;
+    background-color: #2E3829;
+    border-radius: 8px;
+    padding: 12px;
+    box-sizing: border-box;
+    margin-right: 16px;
+}
+
+.balance-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.balance-amount {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.balance-label {
+    font-size: 14px;
+    color: #A6B5A1;
+}
